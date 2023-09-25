@@ -1,0 +1,8 @@
+A note-taking client in a pinboard-like layout.
+
+If you're curious, you may run it locally:
+- git clone https://github.com/apophatic/jot.git
+- cd jot
+- npm install
+- npm run build
+- npm run start

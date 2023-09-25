@@ -1,0 +1,167 @@
+@font-face {
+	font-family: Dosis;
+	src: url(../public/Dosis-VariableFont_wght.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	box-sizing: border-box;
+
+	font-family: Dosis, monospace;
+	letter-spacing: 1px;
+
+	--light-background: rgb(207, 158, 112);
+	--dark-background: rgb(51, 9, 45);
+	--note-light: rgb(243, 208, 178);
+	--note-dark: rgb(71, 31, 65);
+}
+
+body {
+	margin: 0;
+	background: var(--light-background);
+}
+
+.dark-mode {
+	background: var(--dark-background);
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 24px;
+	color: var(--note-dark);
+}
+
+.dark-mode h1 {
+	color: var(--note-light);
+}
+
+.container {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
+	padding: 0.4rem 0 2rem 0;
+}
+
+.notes-list {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(250px, 1fr)
+	);
+}
+
+/* .note.new {
+	background-color: ;
+}
+
+.dark-mode .note.new {
+	background-color: #444;
+} */
+
+textarea {
+	font-size: 16px;
+	resize: none;
+	background: var(--note-light);
+	color: var(--note-dark);
+}
+
+.dark-mode textarea {
+	background: var(--note-dark);
+	color: var(--note-light);
+}
+
+.add {
+	color: var(--note-dark);
+}
+
+.dark-mode .add {
+	color: var(--note-light);
+}
+
+.add:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+button {
+	border: 2px dotted #888;
+	cursor: pointer;
+	font-size: 16px;
+	background: var(--note-light);
+	color: var(--note-dark);
+}
+
+.dark-mode button {
+	background: var(--note-dark);
+	color: var(--note-light);
+}
+
+button:hover {
+	background: rgb(226, 189, 157);
+}
+
+.dark-mode button:hover {
+	background: rgb(101, 42, 92);
+}
+
+.delete:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.note {
+	background: var(--note-light);
+	color: var(--note-dark);
+	padding: 0.6rem;
+	line-height: 1.2;
+	min-height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+}
+
+.note, input, textarea {
+	border: 2px dotted #888;
+	border-radius: 4px;
+}
+
+.dark-mode .note {
+	background: var(--note-dark);
+	color: var(--note-light);
+}
+
+.note-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+form {
+	margin-bottom: 1.2em;
+}
+
+input {
+	font-size: 16px;
+	background: var(--note-light);
+	color: var(--note-dark);
+	width: 100%;
+	padding: 0.2em;
+}
+
+input:focus, textarea:focus {
+	outline: 2px solid #999;
+}
+
+.dark-mode input {
+	background: var(--note-dark);
+	color: var(--note-light);
+}
