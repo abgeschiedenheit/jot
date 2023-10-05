@@ -1,13 +1,11 @@
 @font-face {
-	font-family: Dosis;
-	src: url(../public/Dosis-VariableFont_wght.ttf) format(truetype);
-	font-weight: normal;
-	font-style: normal;
+	font-family: ArchitectsDaughter;
+	src: url(../public/ArchitectsDaughter-Regular.ttf) format(truetype);
 }
 * {
 	box-sizing: border-box;
 
-	font-family: Dosis, monospace;
+	font-family: ArchitectsDaughter, sans-serif;
 	letter-spacing: 1px;
 
 	--light-background: rgb(207, 158, 112);
@@ -132,7 +130,7 @@ button:hover {
 
 .note, input, textarea {
 	border: 2px dotted #888;
-	border-radius: 4px;
+	border-radius: 10px;
 }
 
 .dark-mode .note {
@@ -154,7 +152,7 @@ input {
 	background: var(--note-light);
 	color: var(--note-dark);
 	width: 100%;
-	padding: 0.2em;
+	padding: 0.2em 0.6em;
 }
 
 input:focus, textarea:focus {

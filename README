@@ -1,8 +1,3 @@
-A note-taking client in a pinboard-like layout.
+A note-taking client in a pinboard-like layout. The font is set on Architects Daughter[1]. Please note: The application uses localstorage, so if you clear your browser cache/history, your data will be deleted.
 
-If you're curious, you may run it locally:
-- git clone https://github.com/apophatic/jot.git
-- cd jot
-- npm install
-- npm run build
-- npm run start
+1: https://fonts.google.com/specimen/Architects+Daughter
