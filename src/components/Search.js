@@ -9,7 +9,7 @@ const Search = ({ handleSearchNote }) => {
 						handleSearchNote(event.target.value)
 					}
 					type='search'
-					placeholder='Search for a keyword...'
+					placeholder='search for a keyword...'
 				/>
 			</form>
 		</div>

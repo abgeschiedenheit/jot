@@ -3,11 +3,11 @@ const Note = ({ id, text, date, handleDeleteNote }) => {
 		<div className='note'>
 			<span>{text}</span>
 			<div className='note-footer'>
-				<small>{date}</small>
+				<small className='date'>{date}</small>
 				<small
 					onClick={() => handleDeleteNote(id)}
 					className='delete'
-				>Delete</small>
+				>delete note</small>
 			</div>
 		</div>
 	);

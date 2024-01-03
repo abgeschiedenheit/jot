@@ -11,7 +11,7 @@ const Header = ({ handleToggleDarkMode }) => {
 					)
 				}
 			>
-				dark / light
+				#fff / #111
 			</button>
 		</header>
 	);

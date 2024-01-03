@@ -8,12 +8,12 @@ const App = () => {
 	const [notes, setNotes] = useState([
 		{
 			id: nanoid(),
-			text: 'Jot is a note-taking client in a pinboard-like layout.',
+			text: 'jot is a note-taking client in a pinboard-like layout',
 			date: '03/22/23',
 		},
 		{
 			id: nanoid(),
-			text: 'Grocery items: toast, jam, peanut butter, milk.',
+			text: 'grocery items: toast, jam, peanut butter, milk',
 			date: '03/22/23',
 		},
 	]);

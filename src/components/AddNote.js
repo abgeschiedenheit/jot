@@ -22,16 +22,16 @@ const AddNote = ({ handleAddNote }) => {
 			<textarea
 				rows='8'
 				cols='10'
-				placeholder='Type a note...'
+				placeholder='type a note...'
 				value={noteText}
 				onChange={handleChange}
 			></textarea>
 			<div className='note-footer'>
-				<small>
-					{characterLimit - noteText.length} Characters Left
+				<small className='characters'>
+					{characterLimit - noteText.length} characters left
 				</small>
 				<small className='add' onClick={handleSaveClick}>
-					Add
+					add note
 				</small>
 			</div>
 		</div>

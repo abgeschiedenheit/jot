@@ -1,3 +1,1 @@
-A note-taking client in a pinboard-like layout. The font is set on Architects Daughter[1]. Please note: The application uses localstorage, so if you clear your browser cache/history, your data will be deleted.
-
-1: https://fonts.google.com/specimen/Architects+Daughter
+A dead-simple note-taking client in a pinboard-like layout. Please note: The application uses localstorage, so clearing browser cache/history will delete the data.
