@@ -1,18 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Header = ({ handleToggleDarkMode }) => {
+const Header = () => {
 	return (
 		<header>
 			<h1>jot</h1>
-			<button
-				onClick={() =>
-					handleToggleDarkMode(
-						(previousDarkMode) => !previousDarkMode
-					)
-				}
-			>
-				#fff / #111
-			</button>
 		</header>
 	);
 };

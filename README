@@ -1,1 +1,0 @@
-A dead-simple note-taking client in a pinboard-like layout. Please note: The application uses localstorage, so clearing browser cache/history will delete the data.
