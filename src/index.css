@@ -1,21 +1,47 @@
-html {
-	background-color: #FEFCFB;
+@font-face {
+	font-family: "cmu";
+	src: url("../public/fonts/cmu.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "cmu";
+	src: url("../public/fonts/cmu-italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "cmu";
+	src: url("../public/fonts/cmu-bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "cmu";
+	src: url("../public/fonts/cmu-bold-italic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+* {
+	font-family: "cmu", monospace;
 }
 
 body {
-	background-color: #FFF7ED;
+	background-color: #5e155e;
 	font-family: sans-serif;
 	max-width: 68rem;
-
-	border: 3px dotted #FFC182;
-	border-radius: 12px;
-	color: #582D1D;
-	margin: 1rem auto;
+	color: #f5fffa;
+	margin: 0 auto;
 	padding: 0 2rem;
 }
 
-header {
+h1 {
 	text-align: center;
+	text-decoration: underline;
 }
 
 .container {
@@ -40,13 +66,13 @@ textarea {
 	padding: 0.4rem 0.6rem;
 	background: #FFEFD6;
 	border-radius: 12px;
-	border: 2px dotted #FFC182;
+	border: 4px dotted #FFC182;
 	color: #582D1D;
 }
 
 textarea:focus {
 	outline: none;
-	border: 2px solid #FFC182;
+	border: 4px solid #FFC182;
 }
 
 .add {
