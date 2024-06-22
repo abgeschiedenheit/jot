@@ -8,7 +8,7 @@ const App = () => {
 	const [notes, setNotes] = useState([
 		{
 			id: nanoid(),
-			text: "jot is a note-taking client in a pinboard-like layout",
+			text: "jot is a memo-taking client in a pinboard-like layout",
 			date: "07/07/77",
 		},
 		{
@@ -18,7 +18,7 @@ const App = () => {
 		},
 		{
 			id: nanoid(),
-			text: "about m: she read simone weil and clarice lispector and listened to joanna newsom and bjork",
+			text: "about m: she reads simone weil and clarice lispector, listens to joanna newsom and björk, was part of the scene subculture in her youth, her father is an evangelical pastor",
 			date: "07/07/77",
 		},
 		{
